@@ -6,6 +6,9 @@ body{
 }
 .copy{
 	background-image: linear-gradient(to bottom right,#0f401e,#008080);
+	color: white;
+	font-size: 15px;
+	padding: 25px 0;
 }
 
 
