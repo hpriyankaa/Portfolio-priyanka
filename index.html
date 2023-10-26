@@ -17,10 +17,36 @@
 		rel="stylesheet">
 	<script type="text/javascript" src="frontend.js"></script>
 </head>
-
 <body>
+	<header>
+		<nav>
+			<a href="#about-me">About</a>
+			<a href="#projects">Projects</a>
+			<a href="#reach">Contact</a>
+		</nav>
+	</header>
+	<style>
+        header {
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+         nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
 	<div class="site-container">
-		<div class="about-me-section">
+		<div class="about-me-section" id="about-me">
 			<h1 class="about-me-title">ABOUT ME</h1>
 			<div class="img-name-wrapper">
 				<div class="profile-img-wrapper">
@@ -47,7 +73,7 @@
 		</div>
 
 
-		<div class="work-highlights-section">
+		<div class="work-highlights-section" id="projects">
 			<h1>Work Highlights!</h1>
 			<p class="work-highlights-para">
 				Starbucks have always been cliche and of course my favourite from my
@@ -66,7 +92,7 @@
 				<a class="btn" id="popup" href="https://hpriyankaa.github.io/starbucksclonefrontend/">click here to
 					view!</a>
 			</div>
-			<div class="reach-out-section">
+			<div class="reach-out-section" id="reach">
 				<h1>Want to reach out?</h1>
 				<h2>Ring my virtual doorbell !</h2>
 				<div class="social-media-container">
